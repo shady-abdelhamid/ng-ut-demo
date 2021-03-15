@@ -4,9 +4,15 @@ describe('BService', () => {
   let service: BService;
   beforeEach(() => { service = new BService(); });
 
-  it('#getValue should return real value', () => {
-    expect(service.getValue()).toBe('real value');
+  describe('#getValue', () => {
+    it('should return real value', () => {
+      expect(service.getValue()).toBe('real value');
+    });
   });
+  
+  // it('#getValue should return real value', () => {
+  //   expect(service.getValue()).toBe('real value');
+  // });
 
   it('#getObservableValue should return value from observable',
     (done: DoneFn) => {

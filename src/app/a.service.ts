@@ -8,6 +8,11 @@ export class AService {
   constructor() { }
 
   sum (a, b) {
-    return a + b;
+    if (a > 0) {
+      return a + b;
+    } else  {
+      return a - b;
+    }
+    
   }
 }
