@@ -1,5 +1,7 @@
 # NgUtDemo
 
+[![build status](https://github.com/shady-abdelhamid/ng-ut-demo/workflows/Build/badge.svg)](https://github.com/shady-abdelhamid/ng-ut-demo/actions)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.4.
 
 ## Development server
