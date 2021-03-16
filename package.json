@@ -9,9 +9,10 @@
     "build:prod": "ng build --prod",
     "test": "ng test --watch=false --browsers=ChromeHeadlessCustom",
     "test:watch": "ng test",
+    "coverage": "ng test --no-watch --browsers=ChromeHeadlessCustom --code-coverage",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:ci": "npm run clean && npm run test && npm run build:prod"
+    "build:ci": "npm run clean && npm run coverage && npm run build:prod"
   },
   "private": true,
   "dependencies": {
